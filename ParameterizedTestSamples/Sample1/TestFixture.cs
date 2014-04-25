@@ -11,7 +11,7 @@ namespace ParameterizedTestSamples.Sample1
         [TestCase(3, 5, Result = true)]
         [TestCase(8, 3, Result = true)]
         // Негативы.
-        [TestCase(0, 0, Result = false)]
+        [TestCase(0, 0, Result = false)]       
         [TestCase(1, 1, Result = false)]
         [TestCase(1, 0, Result = false)]
         [TestCase(2, 2, Result = false)]
