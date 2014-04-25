@@ -15,7 +15,6 @@ namespace ParameterizedTestSamples.Sample1
             Assert.IsTrue(Calculator.IsCoprimeNumbers(3, 5));
 
             Assert.IsTrue(Calculator.IsCoprimeNumbers(0, 0));
-            throw new Exception();
             Assert.IsFalse(Calculator.IsCoprimeNumbers(1, 1));
             Assert.IsFalse(Calculator.IsCoprimeNumbers(1, 0));
             Assert.IsFalse(Calculator.IsCoprimeNumbers(2, 2));
