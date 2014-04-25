@@ -3,7 +3,7 @@
 namespace ParameterizedTestSamples.Sample1
 {
     [TestFixture]
-    public class CalculatorTest
+    public class CalculatorTests
     {
         // Позитивы.
         [TestCase(2, 3, Result = true)]
@@ -16,7 +16,7 @@ namespace ParameterizedTestSamples.Sample1
         [TestCase(1, 0, Result = false)]
         [TestCase(2, 2, Result = false)]
         [TestCase(2, 4, Result = false)]   
-        public bool IsCoprimeNumbersPositiveTest(int n1, int n2)
+        public bool IsCoprimeNumbersTest(int n1, int n2)
         {
            return Calculator.IsCoprimeNumbers(n1, n2);
         }     
